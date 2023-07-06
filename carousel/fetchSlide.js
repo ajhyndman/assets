@@ -1,7 +1,7 @@
 // This script is used for SWE UI photo gallery question
 // It is loaded as an external script in the question codepen
 
-// Owners: @justinh, @taylorm, @patrickm
+// Owners: @mknusel @ahyndman
 (function () {
 
 const SIMULATED_DELAY_BY_INDEX = [
