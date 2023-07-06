@@ -31,6 +31,7 @@ window.fetchSlide = async function fetchSlide ({index} = {}) {
   const simulatedDelay = SIMULATED_DELAY_BY_INDEX[index];
 
   if (simulatedDelay === undefined) {
+    await new Promise(resolve => window.setTimeout(resolve, 500));
     const message = `The slide with index ${index} is not available.`;
     console.error(message);
 
